@@ -1,0 +1,30 @@
+# Core transcription
+whisperx>=3.1.1
+faster-whisper>=1.0.0
+
+# Speaker diarization
+pyannote.audio>=3.1.0
+
+# Document / slide text extraction
+marker-pdf>=0.2.0
+surya-ocr>=0.4.0
+
+# Frame & video processing
+opencv-python>=4.9.0
+numpy>=1.24.0
+Pillow>=10.0.0
+
+# Data & serialization
+tqdm>=4.66.0
+
+# Web server (frontend + backend)
+fastapi>=0.111.0
+uvicorn[standard]>=0.29.0
+python-multipart>=0.0.9      # multipart form / file upload
+
+# LLM notes generation
+openai>=1.30.0               # OpenAI / compatible APIs
+anthropic>=0.26.0            # optional: Anthropic Claude
+
+# Video download
+yt-dlp>=2024.5.1
